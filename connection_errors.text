@@ -1,0 +1,28 @@
+File "/Users/jameydogom/Desktop/codingdojo/python_stack/my_environments/py3Env/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+127.0.0.1 - - [08/Jul/2019 16:15:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2019 16:15:33] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2019 16:15:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2019 16:15:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2019 16:15:33] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ * Detected change in '/Users/jameydogom/Desktop/codingdojo/python_stack/flask/flask_fundamentals/first_flask_mysql/mysqlconnection.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 475-445-784
+ * Detected change in '/Users/jameydogom/Desktop/codingdojo/python_stack/flask/flask_fundamentals/first_flask_mysql/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 475-445-784
+Running Query: SELECT * FROM friends;
+()
+127.0.0.1 - - [08/Jul/2019 16:16:46] "GET / HTTP/1.1" 200 -
+Running Query: SELECT * FROM friends;
+[{'id': 1, 'first_name': 'peter', 'last_name': 'yagubyan', 'occupation': 'doctor', 'created_at': datetime.datetime(2019, 7, 8, 16, 17, 54), 'updated_at': datetime.datetime(2019, 7, 8, 16, 17, 54)}]
+127.0.0.1 - - [08/Jul/2019 16:19:43] "GET / HTTP/1.1" 200 -
+Running Query: SELECT * FROM friends;
+[{'id': 1, 'first_name': 'peter', 'last_name': 'yagubyan', 'occupation': 'doctor', 'created_at': datetime.datetime(2019, 7, 8, 16, 17, 54), 'updated_at': datetime.datetime(2019, 7, 8, 16, 17, 54)}]
+127.0.0.1 - - [08/Jul/2019 16:26:56] "GET / HTTP/1.1" 200 -
+Running Query: SELECT * FROM friends;
+[{'id': 1, 'first_name': 'peter', 'last_name': 'yagubyan', 'occupation': 'doctor', 'created_at': datetime.datetime(2019, 7, 8, 16, 17, 54), 'updated_at': datetime.datetime(2019, 7, 8, 16, 17, 54)}, {'id': 3, 'first_name': 'tomer', 'last_name': 'azarly', 'occupation': 'clippers-writer', 'created_at': datetime.datetime(2019, 7, 8, 16, 29, 28), 'updated_at': datetime.datetime(2019, 7, 8, 16, 29, 28)}]
+127.0.0.1 - - [08/Jul/2019 16:29:35] "GET / HTTP/1.1" 200 -
